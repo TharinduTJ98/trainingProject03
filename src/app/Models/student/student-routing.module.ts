@@ -7,7 +7,7 @@ import { EditStudentComponent } from './edit-student/edit-student.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '',
+    redirectTo: 'show-students',
     pathMatch: 'full'
   },
   {
