@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./show-courses.component.scss']
 })
 export class ShowCoursesComponent {
-
+  courses = [
+    { name: 'Angular Development', code: 'ABC', credits: 3 },
+    { name: 'JavaScript Fundamentals', code: 'DCE', credits: 4 },
+    { name: 'Database Design', code: 'EFG', credits: 3 }
+  ];
 }
