@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { PublicBaseComponent } from './Components/public-base/public-base.component';
 import { PrivateBaseComponent } from './Components/private-base/private-base.component';
 import { LoginComponent } from './Components/login/login.component';
+import { NewRegistrationsComponent } from './Components/new-registrations/new-registrations.component';
+import { AvailableCoursesComponent } from './Components/available-courses/available-courses.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,14 @@ const routes: Routes = [
       {
         path: '',
         component: LoginComponent
+      },
+      {
+        path:'new-registrations',
+        component: NewRegistrationsComponent
+      },
+      {
+        path:'available-courses',
+        component: AvailableCoursesComponent
       }
     ]
   },
